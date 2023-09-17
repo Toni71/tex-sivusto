@@ -1,0 +1,118 @@
+.flex-item-left {
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .flex-item-right {
+    padding: 25px;
+    width: 70%;
+  }
+
+  .esittely-img img{
+    height:100%;
+    max-height: 500px;
+    min-width:300px;
+  }
+  .esittely-kuva{
+    border: solid #b9b9b9 3px;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 1400px) {
+    .flex-item-left {
+      width: 30%;
+    }
+    .flex-item-right {
+      width: 70%;
+    }
+    .esittely-img img{
+      height: 100%;
+      min-width:250px;
+    }
+  }
+  
+
+
+  @media (max-width: 1000px) {
+    .flex-container2 {
+        flex-direction: column;
+      }
+      .flex-item-left {
+        width: 100%;
+        text-align: center;
+      }
+    
+      .flex-item-right {
+        width: 100%;
+      }
+      .esittely-img img{
+        height: 100%;
+        max-height: 400px;
+        min-width:0px;
+      }
+  }
+  
+
+
+  .card-2 {
+    border: solid #a7a7a7 2px;
+    background-color: #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    user-select: none;
+    font-family: "Poppins", sans-serif !important;
+    color: black;
+  }
+
+  .card-2:hover {
+    box-shadow: 0 4px 8px 0 #ffffff;
+  }
+
+  .sarjat-img-3 {
+    height: 300px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    border-bottom: solid #b9b9b9 2px;
+  }
+
+
+  @media (min-width: 768px) {
+    .card-2 {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .card-2 {
+      font-size: 19px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .card-2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .card-2 {
+      width: 300px;
+    }
+    .sarjat-img-3 {
+        height: 200px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .card-2 {
+        width: 250px;
+      }
+      .sarjat-img-3 {
+          height: 150px;
+      }
+  }
+

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"); /** Poppins Font **/
+
+
+.tarina-card {
+    border: solid #b9b9b9 2px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    user-select: none;
+    font-family: "Poppins", sans-serif !important;
+    color: black;
+   
+  }
+
+  .card-text {
+    white-space: nowrap; 
+    overflow-x: hidden;
+  }
+
+  .tarina-card:hover {
+    box-shadow: 0 4px 8px 0 #ffffff;
+  }
+
+  @media (min-width: 768px) {
+    .tarina-card {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .tarina-card {
+      font-size: 19px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .tarina-card {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .tarina-card {
+      width: 160px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .tarina-card {
+      width: 130px;
+    }
+  }
